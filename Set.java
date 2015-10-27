@@ -1,4 +1,4 @@
-package main;
+﻿package main;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,11 +9,11 @@ import java.util.*;
  * Created by Даша on 10.10.2015.
  */
 public class Set
-{
+{//ой вот тут по моему ошибочка
 
     private HashSet <String> hashSet;
 
-    public Set(){
+    public Set(){//вот тут тоже неполадки системы
         hashSet = new HashSet<String>();
     }
 
